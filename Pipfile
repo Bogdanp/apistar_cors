@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-apistar = "*"
+apistar = {git = "https://github.com/encode/apistar.git", editable = true, ref = "level-up"}
 wsgicors = "*"
 
 

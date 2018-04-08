@@ -1,11 +1,10 @@
 import pytest
 
-from apistar import Route, TestClient
-from apistar.frameworks.wsgi import WSGIApp
+from apistar import App, Route, TestClient
 from apistar_cors import CORSMixin
 
 
-class App(CORSMixin, WSGIApp):
+class App(CORSMixin, App):
     pass
 
 

@@ -10,11 +10,8 @@ def make_cors_mixin(**options):
     """
     class CORSMixin:
         def __call__(self, environ, start_response):
-            def start_response_wrapper(status, headers, exc_info=None):
-                return start_response(status, headers)
-
             cors = CORS(super().__call__, **options)
-            return cors(environ, start_response_wrapper)
+            return cors(environ, start_response)
 
     return CORSMixin
 

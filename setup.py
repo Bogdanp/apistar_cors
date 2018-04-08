@@ -26,7 +26,7 @@ setup(
     packages=[],
     py_modules=["apistar_cors"],
     install_requires=[
-        "apistar>=0.3,<0.4",
+        "apistar>=0.4,<0.5",
         "wsgicors>=0.7,<0.8",
     ],
     python_requires=">=3.5",
