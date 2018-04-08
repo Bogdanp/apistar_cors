@@ -11,7 +11,7 @@ CORS support for [API Star].
 ## Usage
 
 ``` python
-from apistar.frameworks.wsgi import WSGIApp
+from apistar import App
 from apistar_cors import CORSMixin
 
 
@@ -23,17 +23,12 @@ COMPONENTS = [
     # ...
 ]
 
-SETTINGS = {
-    # ...
-}
-
 ROUTES = [
     # ...
 ]
 
 app = App(
     components=COMPONENTS,
-    settings=SETTINGS,
     routes=ROUTES,
 )
 ```
