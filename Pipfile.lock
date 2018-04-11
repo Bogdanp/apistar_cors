@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "00eb8a1827821519899a9395b0d6794066b93286dbb1551b192a9ca2c15c8813"
+            "sha256": "3ae7fb44c9e397a8b236f888ebd0fa4e18e53e1480989dd190c7c27860db3a70"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -17,9 +17,11 @@
     },
     "default": {
         "apistar": {
-            "editable": true,
-            "git": "https://github.com/encode/apistar.git",
-            "ref": "d4490d2485ea3c5e8a71349219bdbba6dc4d60d6"
+            "hashes": [
+                "sha256:da2a33c5ecc996f47ffa2d53393dd764be5dc4ee85f1b06f201044dd01b2dff1"
+            ],
+            "index": "pypi",
+            "version": "==0.4"
         },
         "attrs": {
             "hashes": [
@@ -173,6 +175,7 @@
             "hashes": [
                 "sha256:ccab43d60f02971d548f24209939818bb85fddf9367d4668e0db787b071f3d99"
             ],
+            "index": "pypi",
             "version": "==0.7.0"
         }
     },
@@ -189,6 +192,7 @@
                 "sha256:6744c873dd7aafc24453d8b6a1a0d6d109faf63cd0cd19cb78fd46e74932c77e",
                 "sha256:6753d9ff3552013e2130f7bc03c1007e24473b4835952679653fb132367bdd57"
             ],
+            "index": "pypi",
             "version": "==0.5.3"
         },
         "certifi": {
@@ -309,6 +313,7 @@
                 "sha256:03aa752cf11db41d281ea1d807d954c4eda35cfa1b21d6971966cc041bbf6e2d",
                 "sha256:890fe5565400902b0c78b5357004aab1c814115894f4f21370e2433256a3eeec"
             ],
+            "index": "pypi",
             "version": "==2.5.1"
         },
         "requests": {
@@ -344,6 +349,7 @@
                 "sha256:08eb132bbaec40c6d25b358f546ec1dc96ebd2638a86eea68769d9e67fe2b129",
                 "sha256:2fd9a4d9ff0bcacf41fdc40c8cb0cfaef1f1859457c9653fd1b92237cc4e9f25"
             ],
+            "index": "pypi",
             "version": "==1.11.0"
         },
         "urllib3": {

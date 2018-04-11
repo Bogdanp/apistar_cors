@@ -1,24 +1,17 @@
 [[source]]
-
 url = "https://pypi.python.org/simple"
 verify_ssl = true
 name = "pypi"
 
-
 [packages]
-
-apistar = {git = "https://github.com/encode/apistar.git", editable = true, ref = "level-up"}
+apistar = "==0.4"
 wsgicors = "*"
 
-
 [dev-packages]
-
+bumpversion = "*"
 pytest = "*"
 pytest-cov = "*"
-bumpversion = "*"
 twine = "*"
 
-
 [requires]
-
 python_version = "3.6"
